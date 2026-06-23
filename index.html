@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form>
+        <h1>Temperature Convertion</h1>
+        <input type="number" id="input" value="0">
+        <br>
+        <div id="temp-box">
+            <input type="radio" class="r" name="conv-r" id="F2C">
+            <label for="F2C"class="l">Fahrenheit &#9188;> Celsius</label>
+            <br>
+            <input type="radio"  class="r" name="conv-r" id="C2F">
+            <label for="C2F"class="l">Celsius &#9188;> Fahrenheit</label>
+            <br>
+            <input type="radio" class="r" name="conv-r" id="K2C">
+            <label for="K2C"class="l">kelvin &#9188;> Celsius</label>
+            <br>
+            <input type="radio" class="r" name="conv-r" id="K2F">
+            <label for="K2F"class="l">kelvin &#9188;> Fahrenheit</label>
+            <br>
+            <input type="radio" class="r" name="conv-r" id="C2K">
+            <label for="C2K" class="l" >Celsius &#9188;> kelvin</label>
+            <br>
+            </div>
+        <button type="button" id="sub-btn" onclick="convert()">Convert</button>
+        <p id="result">Select to Convert</p>
+        
+    </form>
+
+    <script src="app.js"></script>
+</body>
+</html>
